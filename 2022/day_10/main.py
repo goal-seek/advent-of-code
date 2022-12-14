@@ -66,10 +66,10 @@ def check_pixel(clock,sprite,display):
     return display
 
 def check_clock(clock,display):
-    if clock == 40:
+    if clock == 41:
         print(display)
         display = ''
-        clock = 0
+        clock = 1
     return clock, display
 
 
